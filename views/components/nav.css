@@ -16,7 +16,7 @@
     transition: all 1s ease-in-out;
 }
 .brand img{
-    width: 6em;
+    width: 8em;
 }
 .nav-link:hover{
     color: #FFF !important;
