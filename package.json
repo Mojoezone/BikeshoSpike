@@ -1,0 +1,41 @@
+{
+  "name": "the-neighborhood-bike-shop",
+  "description": "A school project",
+  "version": "0.0.1",
+  "author": "mojoezone@gmail.com",
+  "ava": {
+    "verbose": "true"
+  },
+  "bugs": "https://github.com/mojoezone@gmail.com/the-neighborhood-bike-shop/issues",
+  "dependencies": {
+    "popper.js": "^1.12.7",
+    "promise-polyfill": "^6.0.2",
+    "reshape-standard": "^3.0.0",
+    "spike": "^2.0.0",
+    "spike-css-standards": "^3.0.0",
+    "spike-js-standards": "^2.0.2",
+    "spike-optimize": "^0.1.2",
+    "spike-page-id": "^1.0.0"
+  },
+  "devDependencies": { 
+    "bootstrap": "^4.0.0-beta.2",
+    "jquery": "^3.2.1",
+    "ava": "^0.19.1",
+    "rimraf": "^2.6.1",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.2"
+  },
+  "homepage": "https://github.com/mojoezone@gmail.com/the-neighborhood-bike-shop",
+  "main": "app.js",
+  "private": true,
+  "repository": "https://github.com/mojoezone@gmail.com/the-neighborhood-bike-shop",
+  "scripts": {
+    "lint": "standard | snazzy",
+    "precommit": "npm run lint -s",
+    "pretest": "npm run lint -s",
+    "test": "NODE_ENV=test ava",
+    "start": "spike watch",
+    "build": "spike compile",
+    "prod": "NODE_ENV=production spike compile -e production"
+  }
+}

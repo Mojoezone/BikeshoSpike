@@ -1,0 +1,13 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '_global';
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Oxygen');
+@import '../../views/index.css';
+@import '../../views/components/nav.css';
+
+
+
+
+
+body{
+    padding: 0;
+}

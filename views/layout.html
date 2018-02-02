@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='description' content=''>
+    <meta name='author' content='mojoezone@gmail.com'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://use.fontawesome.com/d5f26958a0.js">
+    </script>
+    <block name='title'></block>
+    <block name="style">
+        <link rel='stylesheet' href='css/index.css'>
+    </block>
+</head>
+
+<body>
+    <header>
+        <block name='header'>
+            <include src="components/nav.html" />
+        </block>
+    </header>
+    <block name='heroImage'></block>
+    <main>
+        <block name='content'></block>
+    </main>
+    <footer>
+        <block name="footer">
+            <include src='components/footer.html' />
+        </block>
+    </footer>
+    <block name='javascript'>
+        <script src='js/main.js' defer></script>
+    </block>
+</body>
+
+</html>
